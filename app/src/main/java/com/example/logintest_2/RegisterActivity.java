@@ -23,6 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText PasswordEnrol;
     private EditText RePasswordEnrol;
     private ImageButton register_back;
+    private EditText a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
