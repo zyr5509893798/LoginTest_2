@@ -1,4 +1,4 @@
-package com.example.logintest_2;
+package com.example.logintest_2.AllActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.logintest_2.DataBaseHelper.MyDataBaseHelper;
+import com.example.logintest_2.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -58,7 +59,7 @@ public class LoginActivity extends AppCompatActivity {
                 //默认是自动登录状态
                 cb_auto_login.setChecked(true);
                 //跳转界面
-                Intent intent = new Intent(LoginActivity.this,LogoActivity.class);
+                Intent intent = new Intent(LoginActivity.this, LogoActivity.class);
                 LoginActivity.this.startActivity(intent);
             }
         }
@@ -181,7 +182,7 @@ public class LoginActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LoginActivity.this,RegisterActivity.class);
+                Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);
             }
         });

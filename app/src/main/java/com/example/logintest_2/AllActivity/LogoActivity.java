@@ -1,4 +1,4 @@
-package com.example.logintest_2;
+package com.example.logintest_2.AllActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.ProgressBar;
+
+import com.example.logintest_2.R;
 
 public class LogoActivity extends AppCompatActivity {
 

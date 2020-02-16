@@ -1,4 +1,4 @@
-package com.example.logintest_2;
+package com.example.logintest_2.AllActivity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +16,7 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.logintest_2.DataBaseHelper.MyDataBaseHelper;
+import com.example.logintest_2.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
